@@ -100,4 +100,27 @@ body {
   max-width: 220px;
 }
 
+footer {
+  text-align: center;
+  font-family: var(--font-paragraph);
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+footer a {
+  color: var(--bg-sedans);
+}
+footer a:link {
+  text-decoration: none;
+}
+footer a:hover {
+  color: hsl(17, 100%, 50%);
+}
+footer a + a {
+  color: var(--bg-suvs);
+}
+footer a + a:hover {
+  color: hsl(184, 94%, 43%);
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -76,3 +76,28 @@ body{
         max-width: 220px;
     }
 }
+
+footer{
+    text-align: center;
+    @include font-style (var(--font-paragraph), 400, 16px);
+    color: #000;
+    a{
+        color: var(--bg-sedans);
+
+        &:link{
+            text-decoration: none;
+        }
+
+        &:hover{
+            color: hsl(17, 100%, 50%);
+        }
+    }
+
+    a+a{
+        color: var(--bg-suvs);
+
+        &:hover{
+            color: hsl(184, 94%, 43%);
+        }
+    }
+}
