@@ -19,8 +19,8 @@ This is a solution to the [3-column preview card component](https://www.frontend
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/responsive-component-using-sass-html5-css3-9wDQY-AZP2)
-- Live Site URL: (https://ricardodcc.github.io/Stats-preview-card-component/)
+- Solution URL: (https://www.frontendmentor.io/solutions/desktop-responsive-component-w-min-and-max-width-v-q1wDCVwD)
+- Live Site URL: (https://ricardodcc.github.io/3-column-preview-card-component/)
 
 ## My process
 - First of all, I started this small project by organizing the Sass folder. In this folder, will be all the sass files that compose my style properties. So for that, I created:
